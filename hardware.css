@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background: white;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 200px;
+}
+
+header {
+    margin: 0;
+    /* position: fixed; */
+    background-color: transparent;
+}
+
+.header-nav {
+    /* background: #F0EAE5; */
+    /* background: linear-gradient(to bottom, #003049, #F2F2F2); */
+    display: flex;
+    flex-direction: row;
+    /* position: sticky; */
+    justify-content: space-around;
+    align-content: space-around;
+    height: 10vh;
+}
+
+.header-button {
+    /* background: rgba(71, 81, 81, 0.89);
+    border: none;
+    color: white;
+    width: 200px;
+    line-height: 50px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    margin-inline: 15px;
+    margin-block: 15px; */
+
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: #BF5C23; */
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-block: 15px;
+    text-align: center;
+    margin-inline: 15px;
+    align-content: center;
+    line-height: auto;
+    text-justify: center;
+
+    font-family: 'Agdasima', sans-serif;
+    font-size: 125%;
+    /* font-style: italic; */
+
+    transition-duration: 0.3s;
+}
+
+.header-button:hover {
+    /* background: transparent; */
+    background-color: #BF5700;
+    /* background: rgba(255, 58, 58, 0.35); */
+    color: white;
+}
+
+.header-button:active {
+    background: blue 10ms;
+}
+
+/* button spacing/sizing */ 
+#ab {
+    flex-grow: 1;
+}
+#soft {
+    flex-grow: 1;
+}
+#hard {
+    flex-grow: 2;
+}
+#photo {
+    flex-grow: 1;
+}
+#blog {
+    flex-grow: 1;
+}
+
+main {
+    align-content: center;
+}
+
+.description {
+    text-align: center;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 130%;
+}
+
+.projects {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Agdasima', sans-serif;
+}
+.project {
+    background-color: #CED4DA;
+    width: 20%;
+    text-align: center;
+    margin: 1%;
+    border-radius: 5px;
+
+    box-shadow: -2px 1px 5px #343a406c;
+    border-style: solid;
+    border-color: transparent;
+}
+.project:hover {
+    border-color: #BF5700;
+}
+.proj-photo {
+    max-height: auto;
+    max-width: 20%;
+    padding-top: 5%;
+}
+/* #proj1 {
+}
+#proj2 {
+}
+#proj3 {
+}
+#proj4 {
+} */
+

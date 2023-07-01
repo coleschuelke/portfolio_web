@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background: rgb(218, 224, 224);
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 200px;
+}
+
+header {
+    margin: 0;
+    /* position: fixed; */
+    background: red;
+}
+
+.header-nav {
+    background: rgb(12, 129, 129);
+    display: flex;
+    flex-direction: row;
+    /* position: sticky; */
+    justify-content: space-around;
+    align-content: space-around;
+    height: 10vh;
+}
+
+.header-button {
+    /* background: rgba(71, 81, 81, 0.89);
+    border: none;
+    color: white;
+    width: 200px;
+    line-height: 50px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    margin-inline: 15px;
+    margin-block: 15px; */
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-block: 15px;
+    text-align: center;
+    margin-inline: 15px;
+    align-content: center;
+    line-height: auto;
+    text-justify: center;
+
+    font-family: 'Instrument Serif', serif;
+    font-size: 110%;
+    font-style: italic;
+    background: rgba(71, 81, 81, 0.89);
+
+    transition-duration: 0.3s;
+}
+
+.header-button:hover {
+    background: transparent;
+    color: black;
+    /* background: rgba(255, 58, 58, 0.35); */
+}
+
+.header-button:active {
+    background: blue 10ms;
+}
+
+/* button spacing/sizing --- still not working, active won't grow */ 
+#ab {
+    flex-grow: 1;
+}
+#soft {
+    flex-grow: 1;
+}
+#hard {
+    flex-grow: 1;
+}
+#photo {
+    flex-grow: 2;
+}
+#blog {
+    flex-grow: 1;
+}

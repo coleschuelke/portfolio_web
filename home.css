@@ -124,8 +124,10 @@ main {
     margin: 0;
 
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-rows: 25% 50% 25%;
+    grid-template-columns: 25% 50% 25%;
     gap: 1% 1%;
     justify-content: stretch;
     justify-items: stretch;

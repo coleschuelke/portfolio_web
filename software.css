@@ -130,6 +130,7 @@ main {
     text-align: center;
     margin: 1%;
     border-radius: 5px;
+    padding: 3px;
 
     box-shadow: -2px 1px 5px #343a406c;
     border-style: solid;

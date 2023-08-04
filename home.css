@@ -98,7 +98,8 @@ header {
 /* the main part of the website */
 main {
     display: grid;
-    grid-template-rows: 90vh 40vh 20vh 40vh 30vh 30vh 30vh;
+    /* grid-template-rows: 90vh 40vh 20vh 40vh 30vh 30vh 30vh; */
+    grid-template-rows: 90vh auto auto auto auto auto auto;
     grid-template-columns: auto auto auto;
     padding: 0;
     margin: 0;
@@ -282,6 +283,7 @@ main {
     color: #212529;
     border-style: solid;
     border-color: transparent;
+    min-height: 0;
 }
 
 .school:hover {
